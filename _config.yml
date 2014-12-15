@@ -1,3 +1,4 @@
+baseurl: /
 markdown: redcarpet
 permalink: /:categories/:title.html
 url: 
