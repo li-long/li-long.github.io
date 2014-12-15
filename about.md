@@ -1,33 +1,29 @@
 ---
 layout: default
-title: "关于：About"
+title: "About"
 ---
 ####Basic Info
-My name is Pan Xuewen, I'm 29, married, living in Hongshan, Wuhan.  
+<p>
+My name is LiLong (李龙, in Chinese). </br>
+Now, I am a Ph.D candidate in Instite of Compuint Technology (ICT), Chinese Academy of Sciences. <br>
+I am also a student of University of Chinese Academy of Sciences (UCAS). <br>
+</p>
+<p>
+My main reserch interesting includes QoS management in Datacenter Networks, Software-defined Networking (SDN), and TCP/IP statck optimization for Datacenters. 
+</p>
+
 
 ####IT skills
-1.4 years experience in Android application development, team leader of 10+ enterprise level Application.  
-2.1 year experience in Embedded Linux Porting and construction.  
-3.Familiar with Java/C/C++, JNI/NDK, and common design Patterns.  
-4.Well Knowledge of html/WML, css, jsp, php, SEO, and site building.  
-5.Experienced with version control tools such as SVN, and GIT.  
-6.Strong ability of development problems analysing and solving.  
-7.Good at English speaking,writing and reading.  
-8.Learning Cocos2d-JS...  
-
-####Work Experience
-2014/09--Present  Fun.tv(Wuhan) Technology Co.,Ltd  
-Android Software Development Engineer  
-
-2011/11--2014/08  Whan Qdone Network Technology Co.,Ltd  
-Android Development Engineer  
-
-2011/07--2011/10  Wuhan Tianyu Communication Technology Co.,Ltd  
-Android Development Engineer  
+<ol>
+<li>C and C++ system programming</li>
+<li>Linux TCP/IP statck</li>
+<li>NS3 network simulator
+<li>OpenFlow protocol
+</ol>
 
 ####Links
-Blog    <http://www.winfirm.cn>  
-GitHub  <https://github.com/panxw>  
+Blog    <http://www.lilong.bj.cn>  
+Email:  lilong.albert@gmail.com
 
 <!-- Blog Comments -->
 <div class="media">
