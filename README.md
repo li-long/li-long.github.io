@@ -1,4 +1,4 @@
-lilong.github.io
+panxw.github.com
 ================
 
-The blog of github
+Personal Blog powered by Jekyll&amp;Gitpage! http://www.winfirm.cn
