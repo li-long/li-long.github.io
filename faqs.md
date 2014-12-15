@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "问答：Faqs"
+title: "问答：FAQs"
 ---
-记录工作中遇到的一些小问题及解决办法，以防忘记后重头再找答案。
+Recording the problem incurred in my work and the solutions.
 
 ####格式：
 问：Win7下 Eclipse中按"Alt+Ctrl+Down或Alt+Ctrl+Up"时，结果屏幕倒了怎么办？  
