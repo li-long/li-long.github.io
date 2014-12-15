@@ -23,7 +23,7 @@ My main reserch interesting includes QoS management in Datacenter Networks, Soft
 
 ####Links
 Blog    <http://www.lilong.bj.cn>  
-Email:  lilong.albert@gmail.com
+Email:  <a href="mailto:lilong.albert@gmail.com">lilong.albert@gmail.com</a>
 
 <!-- Blog Comments -->
 <div class="media">
