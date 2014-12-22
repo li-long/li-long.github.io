@@ -12,7 +12,7 @@ paginate_path: "page:num"
 # presonal config
 title: LiLong's Blog
 description: LiLong's Blog, powered by Jekyll...
-feed: http://www.winfirm.cn/atom.xml
+feed: http://feeds.feedburner.com/LilongsBlog
 
 author: Li Long
 
