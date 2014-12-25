@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "About"
+title: "About Li Long"
 ---
-####Basic Info
+<h3>Basic Info</h2>
 <p>
 My name is LiLong (李龙, in Chinese). </br>
 Now, I am a Ph.D candidate in Instite of Compuint Technology (ICT), Chinese Academy of Sciences. <br>
@@ -13,7 +13,7 @@ My main reserch interesting includes QoS management in Datacenter Networks, Soft
 </p>
 
 
-####IT skills
+<h3>IT skills</h3>
 <ol>
 <li>C and C++ system programming</li>
 <li>Linux TCP/IP statck</li>
@@ -21,7 +21,7 @@ My main reserch interesting includes QoS management in Datacenter Networks, Soft
 <li>OpenFlow protocol
 </ol>
 
-####Links
+<h3>Links</h3>
 Blog    <http://www.lilong.bj.cn>  
 Email:  <a href="mailto:lilong.albert@gmail.com">lilong.albert@gmail.com</a>
 
