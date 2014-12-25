@@ -2,56 +2,14 @@
 layout: default
 title: "LiLong's Blog"
 ---
-<!--
-<h1 class="page-header">
-  <small>
-    On the shoulders of giants
-  </small>
-</h1>
-<!--
-{% include recommend.html %} 
--->
-
-<!-- Loop output paged posts -->
-{% for post in paginator.posts %}
-<h2>
-  <a href="{{ post.url }}">
-    {{ post.title }}
-  </a> 
-  <div class="post-date">
-	<span class="glyphicon glyphicon-time"></span>
-	{{ post.date | date_to_string }}
-  </div>
-</h2>
-<hr>
-{{ post.excerpt }}
-	<p> <a href="{{ post.url }}"><span >阅读全文 &raquo; </span></a></p>
-<hr>
-{% endfor %}
-
-<!-- Pager indicator -->
-<ul class="pager">
-  {% if paginator.previous_page %} {% if paginator.previous_page == 1 %}
-  <li class="previous">
-    <a href="{{ site.url }}/">
-      &larr; Older
-    </a>
-  </li>
-  {% else %}
-  <li class="previous">
-    <a href="{{ site.url }}/page{{ paginator.previous_page }}">
-      &larr; Older
-    </a>
-  </li>
-  {% endif %} {% endif %} {% if paginator.next_page %}
-  <li class="next">
-    <a href="{{ site.url }}/page{{ paginator.next_page }}">
-      Newer &rarr;
-    </a>
-  </li>
-  {% endif %}
-</ul>
--->
 <div class='home_box' id='home_left'>
 	<h2><a href='http://feeds2.feedburner.com/LilongsBlog' class='float-right'><img src='/images/subscribe-icon.gif' alt='Subscribe'/></a>Latest Blog Post (<a href='blog.html'>More</a>)</h2>
+	
+	<div class='post'>
+		<h1><a href="{{site.posts.first.url}}">{{site.posts.first.title}}</a></h1>
+		<div class='body'>
+			{{ site.posts.first.content }}
+		</div>
+		<a href='{{site.posts.first.url}}#duoshuo_thread'>Comments</a>
+	</div>
 </div>
