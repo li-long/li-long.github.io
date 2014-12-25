@@ -9,6 +9,7 @@ title : Atom Feed
  <link href="http://www.lilong.bj.cn/atom.xml" rel="self"/>
  <link href="http://www.lilong.bj.cn"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <id>http://www.lilong.bj.cn/</id>
  <author>
    <name>{{ site.author.name }}</name>
    <email>{{ site.author.email }}</email>
