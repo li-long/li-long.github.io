@@ -1,4 +1,5 @@
 body {
+  width: 900px;
   font-family: Rockwell, Verdana, sans-serif;
   letter-spacing: 0em;
   background: #fff url(/images/header_bg.gif) repeat-x top;
