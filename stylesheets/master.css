@@ -296,4 +296,6 @@ a img { border: 0; }
 
 #404-image{
 	width: 900;
+	margin-left:auto;
+	margin-right:auto;
 }
