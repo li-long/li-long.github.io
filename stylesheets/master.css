@@ -1,10 +1,10 @@
 body {
-  width: 900px;
+  width: 960 px;
   font-family: Rockwell, Verdana, sans-serif;
   letter-spacing: 0em;
   background: #fff url(/images/header_bg.gif) repeat-x top;
   color: #353B40;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   font-size: 1.1em;
 }
