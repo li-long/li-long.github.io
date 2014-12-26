@@ -1,10 +1,21 @@
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+source:         .
+destination:    ./_site
+plugins:        ./_plugins
+layouts:        ./_layouts
+
 markdown: redcarpet
 permalink: /:categories/:title.html
 url: 
 lsi: false
 highlighter: pygments
 safe: true
-auto: false 
 
 paginate: 8
 paginate_path: "page:num"
