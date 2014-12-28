@@ -297,3 +297,19 @@ code {
 
 a img { border: 0; }
 
+.btn{
+	background:#ccc;
+	color:#fff;
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+	text-align:center;
+	border-radius:4px;
+	padding:12px 20px;
+	line-height:1;
+	font-size:13px;
+}
+
+.btn:hover{
+	background:#ea4c89;
+}

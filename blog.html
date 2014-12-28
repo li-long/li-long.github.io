@@ -14,6 +14,9 @@ title: LiLong's Blogs on the Web
 			<div class='body'>
 				{{ post.content | strip_html | truncate:350 }}
 			</div>
+			<footer>
+			<a class="btn btn-default read-more" rel="nofollow" href="{{ post.url }}" title="{{ post.title }}">阅读全文</a>
+			</footer>
 		</article>
 	{% else %}
 		<article class='post'>
