@@ -2,35 +2,22 @@
 layout: blog
 title: LiLong's Blogs on the Web
 ---
-
+<!--
 <h2><a href='http://feeds2.feedburner.com/LilongsBlog' class='float-right'><img src='/images/subscribe-icon.gif' alt='Subscribe'/></a>Latest Blog Post (<a href='blog.html'>More</a>)</h2>
+-->
 	
 {% for post in site.posts %}
-	{% if forloop.index == 1 %}
-		<article class='post'>
-			<header>
-				<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-			</header>
-			<div class='body'>
-				{{ post.content | strip_html | truncate:350 }}
-			</div>
-			<footer>
+	<article class='post'>
+		<header>
+			<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+		</header>
+		<div class='body'>
+			{{ post.content | strip_html | truncate:350 }}
+		</div>
+		<footer>
 			<a class="btn btn-default read-more" rel="nofollow" href="{{ post.url }}" title="{{ post.title }}">阅读全文</a>
-			</footer>
-		</article>
-	{% else %}
-		<article class='post'>
-			<header>
-				<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-			</header>
-			<div class='body'>
-				{{ post.content | strip_html | truncate:350 }}
-			</div>
-			<footer>
-			<a class="btn btn-default read-more" rel="nofollow" href="{{ post.url }}" title="{{ post.title }}">阅读全文</a>
-			</footer>
-		</article>	
-	{% endif %}
+		</footer>
+	</article>
 {% endfor %}
 </div>
 
