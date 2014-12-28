@@ -7,19 +7,23 @@ title: LiLong's Blogs on the Web
 	
 {% for post in site.posts %}
 	{% if forloop.index == 1 %}
-		<div class='post'>
-			<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+		<article class='post'>
+			<header>
+				<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+			</header>
 			<div class='body'>
 				{{ post.content }}
 			</div>
-		</div>
+		</article>
 	{% else %}
-		<div class='post'>
-			<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+		<article class='post'>
+			<header>
+				<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+			</header>
 			<div class='body'>
 				{{ post.content }}
 			</div>
-		</div>	
+		</article>	
 	{% endif %}
 {% endfor %}
 </div>
