@@ -2,17 +2,29 @@
 layout: blog
 title: LiLong's Blogs on the Web
 ---
-<div class='home_box' id='home_left'>
-	<h2><a href='http://feeds2.feedburner.com/LilongsBlog' class='float-right'><img src='/images/subscribe-icon.gif' alt='Subscribe'/></a>Latest Blog Post (<a href='blog.html'>More</a>)</h2>
+
+<h2><a href='http://feeds2.feedburner.com/LilongsBlog' class='float-right'><img src='/images/subscribe-icon.gif' alt='Subscribe'/></a>Latest Blog Post (<a href='blog.html'>More</a>)</h2>
 	
-	<div class='post'>
-		<h1><a href="{{site.posts.first.url}}">{{site.posts.first.title}}</a></h1>
-		<div class='body'>
-			{{ site.posts.first.content }}
+{% for post in site.posts %}
+	{% if forloop.index == 1 %}
+		<div class='post'>
+			<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+			<div class='body'>
+				{{ post.content }}
+			</div>
 		</div>
-		<a href='{{site.posts.first.url}}#ds-thread'>Comments</a>
-	</div>
+	{% else %}
+		<div class='post'>
+			<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+			<div class='body'>
+				{{ post.content }}
+			</div>
+		</div>	
+	{% endif %}
+{% endfor %}
 </div>
+
+<!--
 <div class='home_box' id='home_right'>
 	<h2>Open Source</h2>
 	<div id='github-projects'>
@@ -22,3 +34,4 @@ title: LiLong's Blogs on the Web
 		</div>
 	</div>
 </div>
+-->
