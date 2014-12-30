@@ -21,6 +21,13 @@ My main reserch interesting includes QoS management in Datacenter Networks, Soft
 <li>OpenFlow protocol
 </ol>
 
+<h3>Patents</h3>
+<ul>
+<li>一种固态硬盘及其存取方法, 申请公布号：CN102662856A</li>
+<li>数据传输的方法及装置, 申请公布号：CN104219079A</li>
+<li>一种内存访问方法、设备和系统, 申请公布号：CN104239222A</li>
+</ul>
+
 <h3>Links</h3>
 Blog    <http://www.lilong.bj.cn>  
 Email:  <a href="mailto:lilong.albert@gmail.com">lilong.albert@gmail.com</a>
